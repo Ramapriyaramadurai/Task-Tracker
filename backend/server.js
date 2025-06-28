@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -7,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // ✅ Replace this with your actual MongoDB connection string
-mongoose.connect("mongodb+srv://Taskuser:user1234@cluster0.vkz1zo5.mongodb.net/tasktracker?retryWrites=true&w=majority", {
+mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
