@@ -1,0 +1,74 @@
+/* Light Purple Theme */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  margin-top: 60px;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(128, 90, 213, 0.2);
+  width: 400px;
+  max-width: 90%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6b21a8; /* Darker purple */
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #d8b4fe;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background-color: #f3e8ff;
+}
+
+button {
+  background-color: #a78bfa;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #7c3aed;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ede9fe;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #4b0082;
+  box-shadow: 0 2px 5px rgba(128, 90, 213, 0.1);
+}
